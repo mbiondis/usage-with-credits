@@ -1,4 +1,0 @@
-Id,ConsumptionScheduleId,Description,LowerBound,Name,Price,PricingMethod,ProcessingOrder,UpperBound,ConsumptionSchedule.Name,ConsumptionSchedule.Id
-0Mo2600000000UNCAY,0Mh2600000000WqCAI,,1,R-000003,0.5,PerUnit,1,,Usage Meter,0Mh2600000000WqCAI
-0Mo2600000000UDCAY,0Mh2600000000WlCAI,,0,R-000001,0,FlatFee,1,1,Overage,0Mh2600000000WlCAI
-0Mo2600000000UICAY,0Mh2600000000WlCAI,,1,R-000002,1,PerUnit,2,,Overage,0Mh2600000000WlCAI
