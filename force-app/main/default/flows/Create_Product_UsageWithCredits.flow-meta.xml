@@ -64,7 +64,7 @@
         <inputAssignments>
             <field>IsActive</field>
             <value>
-                <booleanValue>true</booleanValue>
+                <booleanValue>false</booleanValue>
             </value>
         </inputAssignments>
         <inputAssignments>
