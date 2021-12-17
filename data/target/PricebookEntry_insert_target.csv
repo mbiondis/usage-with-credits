@@ -1,4 +1,0 @@
-IsActive,Pricebook2Id,Product2Id,UnitPrice,UseStandardPrice,Errors
-true,01s250000023jZ7AAI,01t25000006xQP0AAM,0,false,"Before creating a custom price, create a standard price."
-true,01s250000023jZ7AAI,01t25000006xQOzAAM,1,false,"Before creating a custom price, create a standard price."
-true,01s250000023jZ7AAI,01t25000006xQP1AAM,0,false,"Before creating a custom price, create a standard price."

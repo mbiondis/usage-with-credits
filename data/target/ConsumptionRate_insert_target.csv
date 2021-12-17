@@ -1,4 +1,0 @@
-ConsumptionScheduleId,Description,LowerBound,Price,PricingMethod,ProcessingOrder,UpperBound,Errors,Id
-0Mh250000004Cw9CAE,,1,0.5,PerUnit,1,,,0Mo250000004CrPCAU
-0Mh250000004CwACAU,,0,0,FlatFee,1,1,,0Mo250000004CrQCAU
-0Mh250000004CwACAU,,1,1,PerUnit,2,,,0Mo250000004CrRCAU

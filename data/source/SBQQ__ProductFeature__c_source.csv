@@ -1,3 +1,0 @@
-Id,Name,SBQQ__Category__c,SBQQ__ConfigurationFieldSet__c,SBQQ__ConfiguredSKU__c,SBQQ__DiscountSchedule__c,SBQQ__DynamicProductFilterFieldSet__c,SBQQ__DynamicProductLookupFieldSet__c,SBQQ__MaxOptionCount__c,SBQQ__MinOptionCount__c,SBQQ__Number__c,SBQQ__OptionSelectionMethod__c,SBQQ__ConfiguredSKU__r.Name,SBQQ__DiscountSchedule__r.Name,SBQQ__ConfiguredSKU__r.Id
-a0n2600000AFyGXAA1,Usage,,,01t26000009UrRKAA0,,,,,1,100,,Usage with Credits,,01t26000009UrRKAA0
-a0n2600000AGG9KAAX,Usage Meters,,,01t26000009UsaWAAS,,,,,0,100,,Overage,,01t26000009UsaWAAS

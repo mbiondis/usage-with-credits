@@ -1,3 +1,0 @@
-Id,Name,blng__Active__c,blng__InitialBillingTrigger__c,blng__PartialPeriodTreatment__c,blng__PeriodTreatmentForBTDO__c,blng__GenerateInvoices__c
-a1T2600000AaKacEAF,Subscription,true,Order Product Activation Date,Separate,Separate,Yes
-a1T2600000AaKaXEAV,Usage,true,Order Product Activation Date,Separate,Separate,Yes
