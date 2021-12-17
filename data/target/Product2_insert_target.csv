@@ -1,4 +1,0 @@
-Name,IsActive,SBQQ__Component__c,SBQQ__ChargeType__c,SBQQ__BillingFrequency__c,SBQQ__BillingType__c,SBQQ__SubscriptionPricing__c,SBQQ__SubscriptionTerm__c,Usage_Term__c,Overage_Surcharge__c,Carryover_Limit__c,blng__BillingRule__c,blng__RevenueRecognitionRule__c,blng__TaxRule__c,SBQQ__Taxable__c,SBQQ__ConfigurationType__c,SBQQ__ConfigurationEvent__c,Errors,Id
-Usage with Credits,true,false,Recurring,Annual,Advance,Fixed Price,12,3,1,0,a1T25000001bi2jEAA,a2D25000001COgeEAG,a2L25000002MyknEAC,false,Allowed,Edit,,01t25000006xQOzAAM
-Overage,true,true,Recurring,Monthly,Arrears,Fixed Price,1,,,,a1T25000001bi2kEAA,a2D25000001COgdEAG,a2L25000002MyknEAC,false,Allowed,Edit,,01t25000006xQP0AAM
-Usage Meter,true,true,Recurring,Monthly,Arrears,Fixed Price,12,,,,a1T25000001bi2kEAA,a2D25000001COgdEAG,a2L25000002MyknEAC,false,,,,01t25000006xQP1AAM

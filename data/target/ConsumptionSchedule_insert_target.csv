@@ -1,3 +1,0 @@
-BillingTerm,BillingTermUnit,Description,IsActive,MatchingAttribute,Name,RatingMethod,SBQQ__Category__c,Type,UnitOfMeasure,blng__BillingRule__c,blng__RevenueRecognitionRule__c,blng__TaxRule__c,Errors,Id
-1,Month,,false,Transaction,Usage Meter,Tier,Rates,Range,Transaction,,,,,0Mh250000004Cw9CAE
-1,Month,,false,GBP,Overage,Tier,Rates,Slab,Amount,,,,,0Mh250000004CwACAU
