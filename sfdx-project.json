@@ -1,0 +1,30 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Usage with Credits",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "salesforce-cpq@232.2"
+                },
+                {
+                    "package": "salesforce-billing@232.2"
+                }
+            ]
+        }
+    ],
+    "name": "usage-with-credits",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "Usage with Credits": "0Ho8d0000008OP7CAM",
+        "salesforce-cpq@232.2": "04t4N000000GkFyQAK",
+        "salesforce-billing@232.2": "04t0K000001RuGTQA0",
+        "Usage with Credits@1.0.0-1": "04t8d00000091tiAAA",
+        "Usage with Credits@1.0.0-2": "04t8d00000091tnAAA"
+    }
+}

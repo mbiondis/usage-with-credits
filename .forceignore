@@ -1,0 +1,36 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+### Example of how to push/pull ONLY a particular directory
+### (this is necessary because it is not possible to re-include a file if a parent directory of that file is excluded)
+
+# 1) exclude everyhting
+force-app/main/default/*
+
+# 2) include next grandparent folder
+!force-app/main/default/objects
+
+# 3) exclude everything inside grandparent folder
+force-app/main/default/objects/*
+
+# 4) include the parent folder
+!force-app/main/default/objects/Product2
+
+force-app/main/default/objects/Product2/*
+
+!force-app/main/default/objects/Product2/validationRules
+
+# Standard ignore files
+
+package.xml
+
+# Scripts
+./scripts
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**

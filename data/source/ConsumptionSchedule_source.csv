@@ -1,0 +1,3 @@
+Id,BillingTerm,BillingTermUnit,Description,IsActive,MatchingAttribute,Name,RatingMethod,SBQQ__Category__c,SystemModstamp,Type,UnitOfMeasure,blng__BillingRule__c,blng__RevenueRecognitionRule__c,blng__TaxRule__c,blng__BillingRule__r.Name,blng__RevenueRecognitionRule__r.Name,blng__TaxRule__r.Name
+0Mh2600000000WqCAI,1,Month,,FALSE,Transaction,Usage Meter,Tier,Rates,2021-12-11T12:46:06.000+0000,Range,Transaction,,,,,,
+0Mh2600000000WlCAI,1,Month,,FALSE,GBP,Overage,Tier,Rates,2021-12-10T19:18:32.000+0000,Slab,Amount,,,,,,

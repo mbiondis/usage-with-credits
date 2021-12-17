@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Invoice Posting</fullName>
+        <default>true</default>
+        <label>Invoice Posting</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual</fullName>
+        <default>false</default>
+        <label>Manual</label>
+    </customValue>
+    <description>Defines the event that triggers the calculation of the available credits.</description>
+    <masterLabel>Credit Update Trigger</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

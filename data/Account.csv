@@ -1,0 +1,2 @@
+Id,Name,Type,Industry,AnnualRevenue,Rating,Phone,Website,NumberOfEmployees,ShippingGeocodeAccuracy,ShippingCity,ShippingCountry,ShippingLatitude,ShippingLongitude,ShippingPostalCode,ShippingState,ShippingStreet,BillingGeocodeAccuracy,BillingCity,BillingCountry,BillingLatitude,BillingLongitude,BillingPostalCode,BillingState,BillingStreet
+0012600001EKvzuAAD,Revolut,Customer - Direct,Finance,163000000,Hot,+44 020 3322 8352,https://www.revolut.com/,3000,,London,United Kingdom,,,E14 4HD,London,7 Westferry Circus,,London,United Kingdom,,,E14 4HD,London,7 Westferry Circus

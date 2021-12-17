@@ -1,0 +1,3 @@
+Name,blng__Active__c,blng__InitialBillingTrigger__c,blng__PartialPeriodTreatment__c,blng__PeriodTreatmentForBTDO__c,blng__GenerateInvoices__c,Errors,Id
+Subscription,true,Order Product Activation Date,Separate,Separate,Yes,,a1T25000001bi2jEAA
+Usage,true,Order Product Activation Date,Separate,Separate,Yes,,a1T25000001bi2kEAA
