@@ -1,2 +1,0 @@
-Date update,Child Id,Child Lookup Id Field,Child Lookup Reference Field,Child SObject,Parent SObject,Parent ExternalId Field,Missing expected parent ExternalID value
-2021-12-15  19:31:01.299,a2M2600000EjZCtEAN,blng__TaxIntegration__c,blng__TaxIntegration__r.Name,blng__TaxTreatment__c,blng__TaxIntegration__c,Name,Standard

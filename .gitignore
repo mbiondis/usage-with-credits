@@ -42,3 +42,6 @@ $RECYCLE.BIN/
 # Data source (temp folder)
 data/source/
 data/target/
+data/binary_cache
+data/CSVIssuesReport.csv
+data/MissingParentRecordsReport.csv
