@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UsageMeter_and_ConsumesCredit_Exclusive</fullName>
+    <active>true</active>
+    <description>An Order Product can&apos;t be a Usage Meter and Consume Credit at the same time.</description>
+    <errorConditionFormula>AND(Usage_Meter__c, Consumes_Credit__c)</errorConditionFormula>
+    <errorMessage>An Order Product can&apos;t be a Usage Meter and Consume Credit at the same time.</errorMessage>
+</ValidationRule>

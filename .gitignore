@@ -39,37 +39,6 @@ $RECYCLE.BIN/
 # Local environment variables
 .env
 
-# Stuff that doesn't belong in the project package
-
-# GUI
-**/listViews
-**/layouts
-**/compactLayouts
-**/flexipages
-**/fieldSet
-**/tabs
-**/objectTranslations
-
-# Package
-**/featureParameters
-
-# Profiles & Permissions
-**/permissionsetgroups
-**/permissionsets
-**/profiles
-
-# Report Types
-**/reportTypes
-
-# Objects
-**/objects/Order
-**/objects/OrderItem
-**/objects/SBQQ__Quote__c
-
-# Value Sets
-force-app/main/default/globalValueSets/blng__UnitOfMeasure.globalValueSet-meta.xml
-**/standardValueSets
-
-# Helper Flows
-force-app/main/default/flows/Initialize_Order_Product.flow-meta.xml
-force-app/main/default/flows/Initialize_Invoice.flow-meta.xml
+# Data source (temp folder)
+data/source/
+data/target/
