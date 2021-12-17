@@ -31,36 +31,6 @@
             "externalId": "Id"
         },
         {
-            "query": "SELECT Id, Name, SBQQ__EffectiveDate__c, SBQQ__LowerBound__c, SBQQ__OrderProduct__c, SBQQ__OriginalBlockPrice__c, SBQQ__PriceBook2__c, SBQQ__Price__c, SBQQ__Product__c, SBQQ__QuoteLine__c, SBQQ__UpperBound__c FROM SBQQ__BlockPrice__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Account__c, SBQQ__Contract__c, SBQQ__Description__c, SBQQ__DiscountSchedule__c, SBQQ__Discount__c, SBQQ__EffectiveDate__c, SBQQ__ExpirationDate__c, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__NonDiscountable__c, SBQQ__Operator__c, SBQQ__OriginalQuoteLine__c, SBQQ__Price__c, SBQQ__Product__c FROM SBQQ__ContractedPrice__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__CostEditable__c, SBQQ__DefaultQuantity__c, SBQQ__DiscountSchedule__c, SBQQ__NonDiscountable__c, SBQQ__NonPartnerDiscountable__c, SBQQ__PriceBook__c, SBQQ__PriceEditable__c, SBQQ__Product__c, SBQQ__QuantityEditable__c, SBQQ__QuantityScale__c, SBQQ__Taxable__c, SBQQ__TermDiscountSchedule__c, SBQQ__Type__c, SBQQ__UnitPrice__c FROM SBQQ__Dimension__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Account__c, SBQQ__AggregationScope__c, SBQQ__ConstraintField__c, SBQQ__CrossOrders__c, SBQQ__CrossProducts__c, SBQQ__Description__c, SBQQ__DiscountUnit__c, SBQQ__ExcludedPricebookIds__c, SBQQ__IncludeBundledProducts__c, SBQQ__OrderProduct__c, SBQQ__Order__c, SBQQ__OriginalDiscountSchedule__c, SBQQ__OverrideBehavior__c, SBQQ__PriceScale__c, SBQQ__Pricebook__c, SBQQ__Product__c, SBQQ__QuoteLineQuantityField__c, SBQQ__QuoteLine__c, SBQQ__Quote__c, SBQQ__Type__c, SBQQ__UsePriceForAmount__c, SBQQ__UserDefined__c FROM SBQQ__DiscountSchedule__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__DiscountAmount__c, SBQQ__Discount__c, SBQQ__LowerBound__c, SBQQ__Number__c, SBQQ__Price__c, SBQQ__Schedule__c, SBQQ__UpperBound__c FROM SBQQ__DiscountTier__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Active__c, SBQQ__Product__c, SBQQ__UnitCost__c FROM SBQQ__Cost__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
             "query": "SELECT BillingTerm, BillingTermUnit, Description, Id, IsActive, MatchingAttribute, Name, RatingMethod, SBQQ__Category__c, SystemModstamp, Type, UnitOfMeasure, blng__BillingRule__c, blng__RevenueRecognitionRule__c, blng__TaxRule__c FROM ConsumptionSchedule",
             "operation": "Upsert",
             "externalId": "Id"
@@ -77,16 +47,6 @@
         },
         {
             "query": "SELECT Id, Name, SBQQ__Category__c, SBQQ__ConfigurationFieldSet__c, SBQQ__ConfiguredSKU__c, SBQQ__DiscountSchedule__c, SBQQ__DynamicProductFilterFieldSet__c, SBQQ__DynamicProductLookupFieldSet__c, SBQQ__MaxOptionCount__c, SBQQ__MinOptionCount__c, SBQQ__Number__c, SBQQ__OptionSelectionMethod__c FROM SBQQ__ProductFeature__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Active__c, SBQQ__CheckPriorPurchases__c, SBQQ__ConfiguredSKU__c, SBQQ__ConstrainedOption__c, SBQQ__ConstrainingOption__c, SBQQ__OptionConstraintGroup__c, SBQQ__Type__c FROM SBQQ__OptionConstraint__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, RecordTypeId, SBQQ__AppliedImmediately__c, SBQQ__ApplyToProductOptions__c, SBQQ__AutoSelect__c, SBQQ__ColumnOrder__c, SBQQ__DefaultField__c, SBQQ__DefaultObject__c, SBQQ__DisplayOrder__c, SBQQ__Feature__c, SBQQ__Global__c, SBQQ__HiddenValues__c, SBQQ__Hidden__c, SBQQ__Position__c, SBQQ__Product__c, SBQQ__Required__c, SBQQ__ShownValues__c, SBQQ__TargetField__c FROM SBQQ__ConfigurationAttribute__c",
             "operation": "Upsert",
             "externalId": "Id"
         },
@@ -111,7 +71,7 @@
             "externalId": "Id"
         },
         {
-            "query": "SELECT Id, Name, blng__Active__c, blng__BillingFinanceBook__c, blng__BillingGLRule__c, blng__BillingLegalEntity__c, blng__BillingRule__c, blng__CancellationInvoicePlan__c, blng__CancellationRule__c, blng__InvoicePlan__c FROM blng__BillingTreatment__c",
+            "query": "SELECT Id, Name, blng__Active__c, blng__BillingFinanceBook__c, blng__BillingGLRule__c, blng__BillingLegalEntity__c, blng__BillingRule__c, blng__CancellationRule__c FROM blng__BillingTreatment__c",
             "operation": "Upsert",
             "externalId": "Id"
         },
@@ -142,46 +102,6 @@
         },
         {
             "query": "SELECT Id, Name, SBQQ__Code__c, SBQQ__ConsumptionRateFields__c, SBQQ__ConsumptionScheduleFields__c, SBQQ__GroupFields__c, SBQQ__QuoteFields__c, SBQQ__QuoteLineFields__c FROM SBQQ__CustomScript__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ConfiguratorEvaluationEvent__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupObject__c, SBQQ__Product__c, SBQQ__TargetObject__c FROM SBQQ__PriceRule__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Field__c, SBQQ__FilterFormula__c, SBQQ__FilterType__c, SBQQ__FilterVariable__c, SBQQ__Index__c, SBQQ__Object__c, SBQQ__Operator__c, SBQQ__ParentRuleIsActive__c, SBQQ__RuleTargetsCalculator__c, SBQQ__Rule__c, SBQQ__TestedFormula__c, SBQQ__TestedVariable__c, SBQQ__Value__c FROM SBQQ__PriceCondition__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Field__c, SBQQ__Formula__c, SBQQ__Order__c, SBQQ__ParentRuleIsActive__c, SBQQ__RuleLookupObject__c, SBQQ__RuleTargetsCalculator__c, SBQQ__Rule__c, SBQQ__SourceLookupField__c, SBQQ__SourceVariable__c, SBQQ__TargetObject__c, SBQQ__ValueField__c, SBQQ__Value__c FROM SBQQ__PriceAction__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__LookupField__c, SBQQ__MatchType__c, SBQQ__Operator__c, SBQQ__ParentRuleIsActive__c, SBQQ__PriceRule2__c, SBQQ__ProductRule__c, SBQQ__RuleLookupObject__c, SBQQ__RuleTargetsCalculator__c, SBQQ__TestedConfigurationAttribute__c, SBQQ__TestedField__c, SBQQ__TestedObject__c, SBQQ__TestedValue__c FROM SBQQ__LookupQuery__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ErrorMessage__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupMessageField__c, SBQQ__LookupObject__c, SBQQ__LookupProductField__c, SBQQ__LookupRequiredField__c, SBQQ__LookupTypeField__c, SBQQ__Scope__c, SBQQ__Type__c FROM SBQQ__ProductRule__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__FilterType__c, SBQQ__FilterValue__c, SBQQ__FilterVariable__c, SBQQ__Index__c, SBQQ__Operator__c, SBQQ__ParentRuleIsActive__c, SBQQ__RuleTargetsQuote__c, SBQQ__Rule__c, SBQQ__TestedAttribute__c, SBQQ__TestedField__c, SBQQ__TestedObject__c, SBQQ__TestedVariable__c FROM SBQQ__ErrorCondition__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__Operator__c, SBQQ__ParentRuleIsActive__c, SBQQ__Product__c, SBQQ__Required__c, SBQQ__Rule__c, SBQQ__Type__c, SBQQ__ValueAttribute__c, SBQQ__ValueField__c, SBQQ__ValueObject__c FROM SBQQ__ProductAction__c",
-            "operation": "Upsert",
-            "externalId": "Id"
-        },
-        {
-            "query": "SELECT Id, Name, SBQQ__Active__c, SBQQ__AscendingNestedLevel__c, SBQQ__DescendingActionNesting__c, SBQQ__DescendingNestedLevel__c, SBQQ__ProductFeature__c, SBQQ__ProductRule__c, SBQQ__Product__c, SBQQ__RuleEvaluationEvent__c, SBQQ__RuleType__c FROM SBQQ__ConfigurationRule__c",
             "operation": "Upsert",
             "externalId": "Id"
         }
